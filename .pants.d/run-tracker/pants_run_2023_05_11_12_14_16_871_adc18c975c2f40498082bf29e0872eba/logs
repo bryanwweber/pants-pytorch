@@ -1,0 +1,8 @@
+12:15:34.36 [INFO] Extending leases
+12:15:34.37 [INFO] Done extending leases
+12:16:03.55 [INFO] Completed: Generate lockfile for cpu
+12:16:04.28 [INFO] Completed: Generate lockfile for python-default
+12:16:38.50 [INFO] Completed: Generate lockfile for gpu
+12:16:38.51 [INFO] Wrote lockfile for the resolve `python-default` to 3rdparty/python-lock.txt
+12:16:38.51 [INFO] Wrote lockfile for the resolve `cpu` to 3rdparty/python-cpu-lock.txt
+12:16:38.51 [INFO] Wrote lockfile for the resolve `gpu` to 3rdparty/python-gpu-lock.txt

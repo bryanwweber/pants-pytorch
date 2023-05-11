@@ -1,0 +1,18 @@
+12:11:34.30 [33m[WARN][0m Unmatched globs from src/ackbar@resolve=python-default's `sources` field: ["src/ackbar/*.py", "src/ackbar/*.pyi"], excludes: ["src/ackbar/*_test.py", "src/ackbar/*_test.pyi", "src/ackbar/conftest.py", "src/ackbar/test_*.py", "src/ackbar/test_*.pyi", "src/ackbar/tests.py", "src/ackbar/tests.pyi"]
+
+Do the file(s) exist? If so, check if the file(s) are in your `.gitignore` or the global `pants_ignore` option, which may result in Pants not being able to see the file(s) even though they exist on disk. Refer to https://www.pantsbuild.org/v2.16/docs/troubleshooting#pants-cannot-find-a-file-in-your-project.
+12:11:34.30 [33m[WARN][0m Unmatched globs from src/ackbar@resolve=gpu's `sources` field: ["src/ackbar/*.py", "src/ackbar/*.pyi"], excludes: ["src/ackbar/*_test.py", "src/ackbar/*_test.pyi", "src/ackbar/conftest.py", "src/ackbar/test_*.py", "src/ackbar/test_*.pyi", "src/ackbar/tests.py", "src/ackbar/tests.pyi"]
+
+Do the file(s) exist? If so, check if the file(s) are in your `.gitignore` or the global `pants_ignore` option, which may result in Pants not being able to see the file(s) even though they exist on disk. Refer to https://www.pantsbuild.org/v2.16/docs/troubleshooting#pants-cannot-find-a-file-in-your-project.
+12:11:34.30 [33m[WARN][0m Unmatched globs from src/ackbar@resolve=cpu's `sources` field: ["src/ackbar/*.py", "src/ackbar/*.pyi"], excludes: ["src/ackbar/*_test.py", "src/ackbar/*_test.pyi", "src/ackbar/conftest.py", "src/ackbar/test_*.py", "src/ackbar/test_*.pyi", "src/ackbar/tests.py", "src/ackbar/tests.pyi"]
+
+Do the file(s) exist? If so, check if the file(s) are in your `.gitignore` or the global `pants_ignore` option, which may result in Pants not being able to see the file(s) even though they exist on disk. Refer to https://www.pantsbuild.org/v2.16/docs/troubleshooting#pants-cannot-find-a-file-in-your-project.
+12:11:34.30 [31m[ERROR][0m 1 Exception encountered:
+
+Engine traceback:
+  in `generate-lockfiles` goal
+
+IntrinsicError: Unmatched glob from python_requirements(address="src:requirements@resolve=python-default", description=None, module_mapping=FrozenDict({}), overrides=None, source=pyproject.toml, tags=None, type_stubs_module_mapping=FrozenDict({}))'s field `source`: "src/pyproject.toml"
+
+Do the file(s) exist? If so, check if the file(s) are in your `.gitignore` or the global `pants_ignore` option, which may result in Pants not being able to see the file(s) even though they exist on disk. Refer to https://www.pantsbuild.org/v2.16/docs/troubleshooting#pants-cannot-find-a-file-in-your-project.
+

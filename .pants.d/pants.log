@@ -1,0 +1,97 @@
+11:23:16.11 [INFO] handling request: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.15.0/214abc14/index.html'] init`
+11:23:16.25 [INFO] request completed: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.15.0/214abc14/index.html'] init`
+11:24:36.25 [INFO] Extending leases
+11:24:36.26 [INFO] Done extending leases
+11:25:56.29 [INFO] Extending leases
+11:25:56.30 [INFO] Done extending leases
+11:27:16.33 [INFO] Extending leases
+11:27:16.33 [INFO] Done extending leases
+11:28:36.36 [INFO] Extending leases
+11:28:36.36 [INFO] Done extending leases
+11:29:56.39 [INFO] Extending leases
+11:29:56.39 [INFO] Done extending leases
+11:31:16.42 [INFO] Extending leases
+11:31:16.42 [INFO] Done extending leases
+11:32:36.45 [INFO] Extending leases
+11:32:36.45 [INFO] Done extending leases
+11:33:56.48 [INFO] Extending leases
+11:33:56.48 [INFO] Done extending leases
+11:35:16.51 [INFO] Extending leases
+11:35:16.51 [INFO] Done extending leases
+11:36:36.54 [INFO] Extending leases
+11:36:36.54 [INFO] Done extending leases
+11:37:56.56 [INFO] Extending leases
+11:37:56.56 [INFO] Done extending leases
+11:39:16.58 [INFO] Extending leases
+11:39:16.58 [INFO] Done extending leases
+11:40:36.61 [INFO] Extending leases
+11:40:36.61 [INFO] Done extending leases
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "4913"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "4913"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "4913"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"4913", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+11:40:53.29 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"", "4913"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"4913", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "4913"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"4913", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 1 and dirtied 2 nodes for: {"pants.toml", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml"}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"pants.toml~", ""}
+11:40:53.29 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", "pants.toml~"}
+11:40:53.29 [ERROR] saw filesystem changes covered by invalidation globs: content changed (Digest('c1f8d53c4ec591b40590c1f520da6c952327ebab1ce49bfd45e2ab2ae4299b99', 84) fs Digest('d1615ebbb78bc81fa2472ede1119e56fd31327eb3e87b1eca46a9304b81ffc6d', 84)). terminating the daemon.
+11:40:53.62 [ERROR] service failure for <pants.pantsd.service.scheduler_service.SchedulerService object at 0x11379edf0>.
+11:40:53.62 [INFO] Waiting for ongoing runs to complete before exiting...
+11:40:53.62 [INFO] Server exiting with Ok(())
+11:40:53.62 [INFO] Waiting for Sessions to complete before exiting...
+11:40:53.62 [INFO] Waiting for shutdown of: ["scheduler_service_session", "store_gc_service_session"]
+11:40:53.62 [INFO] Shutdown completed: "scheduler_service_session"
+11:40:53.62 [INFO] Shutdown completed: "store_gc_service_session"
+11:40:53.62 [INFO] Exiting pantsd
+11:40:53.62 [WARN] File watcher exiting with: The watcher was shut down.
+11:40:53.65 [WARN] File watcher exiting with: The watcher was shut down.
+12:11:31.48 [INFO] pantsd 2.16.0rc1 running with PID: 17167
+12:11:31.59 [INFO] handling request: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] generate-lockfiles`
+12:11:34.30 [INFO] request completed: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] generate-lockfiles`
+12:12:54.29 [INFO] Extending leases
+12:12:54.30 [INFO] Done extending leases
+12:12:56.82 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/ackbar", "src/ackbar/pyproject.toml"}
+12:12:56.82 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/pyproject.toml", "src"}
+12:12:56.82 [INFO] notify invalidation: cleared 1 and dirtied 38 nodes for: {"src/ackbar/pyproject.toml", "src/ackbar"}
+12:12:56.82 [INFO] notify invalidation: cleared 1 and dirtied 57 nodes for: {"src/pyproject.toml", "src"}
+12:13:02.59 [INFO] handling request: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] generate-lockfiles`
+12:13:15.89 [INFO] request completed: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] generate-lockfiles`
+12:13:15.94 [INFO] Canceled: Generate lockfile for python-default
+12:13:15.94 [INFO] Canceled: Generate lockfile for gpu
+12:13:15.94 [INFO] Canceled: Generate lockfile for cpu
+12:13:33.30 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/ackbar", "src/ackbar/__init__.py"}
+12:13:33.30 [INFO] notify invalidation: cleared 1 and dirtied 49 nodes for: {"src/ackbar", "src/ackbar/__init__.py"}
+12:13:58.67 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"src/ackbar/workflows/__init__.py", "src/ackbar/workflows"}
+12:13:58.67 [INFO] notify invalidation: cleared 1 and dirtied 32 nodes for: {"src/ackbar/workflows", "src/ackbar/workflows/__init__.py"}
+12:14:14.33 [INFO] Extending leases
+12:14:14.33 [INFO] Done extending leases
+12:14:16.82 [INFO] handling request: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] generate-lockfiles`
+12:15:34.36 [INFO] Extending leases
+12:15:34.37 [INFO] Done extending leases
+12:16:38.51 [INFO] request completed: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] generate-lockfiles`
+12:16:38.52 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"3rdparty/python-gpu-lock.txt"}
+12:16:38.52 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"3rdparty/python-gpu-lock.txt"}
+12:16:38.52 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"3rdparty/python-cpu-lock.txt"}
+12:16:38.52 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"3rdparty/python-cpu-lock.txt"}
+12:16:38.52 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"3rdparty/python-lock.txt"}
+12:16:38.52 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"3rdparty/python-lock.txt"}
+12:16:47.92 [INFO] handling request: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] package src:gpu-training`
+12:16:54.40 [INFO] Extending leases
+12:16:54.40 [INFO] Done extending leases
+12:17:06.12 [INFO] request completed: `--python-repos-find-links=-['file:///Users/bweber/Library/Caches/nce/fc197caf7591487de8182f7932e70c61b197372bb3ec4c3ed53f6a8feac3234f/bindings/find_links/2.16.0rc1/0d86147e/index.html'] package src:gpu-training`
+12:17:12.12 [INFO] notify invalidation: cleared 1 and dirtied 292 nodes for: {"", ".git"}
+12:17:12.13 [INFO] notify invalidation: cleared 0 and dirtied 0 nodes for: {"", ".git"}

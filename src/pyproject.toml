@@ -1,0 +1,7 @@
+[project]
+name = "ACKBAR"
+version = "0.0.1"
+dependencies = [
+  "flytekit",
+  "loguru",
+]
